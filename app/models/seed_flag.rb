@@ -1,0 +1,2 @@
+class SeedFlag < ApplicationRecord
+end
