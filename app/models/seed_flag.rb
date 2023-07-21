@@ -1,2 +1,0 @@
-class SeedFlag < ApplicationRecord
-end

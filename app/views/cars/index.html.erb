@@ -2,9 +2,10 @@
   <div class="container">
     <div class="row justify content centehome-h-one text-center">
       <h1 class="home-h-one mt-5 text-white text-center">List of Cars</h1>
-        <% @cars.each do |car| %>
-          <%= link_to car.name, car_path(car), class: "static-heading mt-3 btn btn-primary", id: "static-btn"  %></li>
-        <% end %>
+          <%= link_to "Speed Wagon Cruiser", speed_wagon_cruiser_path, class: "static-heading mt-3 btn btn-primary", id: "static-btn"  %>
+          <%= link_to "Malaviyan Racing Team", malaviyan_racing_team_path, class: "static-heading mt-3 btn btn-primary", id: "static-btn"  %>
+          <%= link_to "Bolt Racers", bolt_racers_path, class: "static-heading mt-3 btn btn-primary", id: "static-btn"  %>
+          <%= link_to "Bolt Racers 2.0", bolt_racers_two_path, class: "static-heading mt-3 btn btn-primary", id: "static-btn"  %>
     </div>
   </div>  
 </section>
