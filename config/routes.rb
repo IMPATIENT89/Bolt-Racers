@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'malaviyan_racing_team', to: 'pages#malaviyan_racing_team'
   get 'bolt_racers', to: 'pages#bolt_racers'
   get 'bolt_racers_two', to: 'pages#bolt_racers_two'
+  get 'sponsorship', to: 'pages#sponsorship'
 
   resources :cars, only: [:index]
 

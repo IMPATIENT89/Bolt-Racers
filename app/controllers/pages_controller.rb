@@ -27,6 +27,7 @@ class PagesController < ApplicationController
         
     end
        
-    
+    def sponsorship
+    end
     
 end
